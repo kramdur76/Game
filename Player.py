@@ -74,6 +74,8 @@ class Player:
         self.dir =  np.matmul(R, self.dir)
         self.dir = normalize(self.dir)
 
+
+
     def turn2(self, rel):
         G = pygame.mouse.get_pos()
         P = self.loc
